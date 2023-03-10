@@ -49,7 +49,11 @@ const config = {
     // baseURL: 'http://localhost:3000',
     video : "retain-on-failure",
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',    
+    trace: 'on-first-retry',   
+    httpCredentials:{
+      username: "postman",
+      password: "password"
+  }  
   },
 
   /* Configure projects for major browsers */
