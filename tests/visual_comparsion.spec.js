@@ -11,5 +11,6 @@ test.describe("Visual comparsion", ()=>{
     
         expect(await page.textContent('body')).toMatchSnapshot('page.txt');
     })
+    
 
 })
